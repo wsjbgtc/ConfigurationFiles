@@ -153,7 +153,7 @@ let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"ng-"]
 autocmd Syntax javascript set syntax=jquery " JQuery syntax support
 
 set matchpairs+=<:>
-set statusline+=%{fugitive#statusline()} "  Git Hotness
+" set statusline+=%{fugitive#statusline()} "  Git Hotness
 
 " Nerd Tree
 let NERDChristmasTree=0
@@ -193,7 +193,7 @@ set wildignore+=*/tmp/*,*.so,*.swp,*.zip     " MacOSX/Linux"
 let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
 
 set laststatus=2 " Always display the status line
-set statusline+=%{fugitive#statusline()} "  Git Hotness
+" set statusline+=%{fugitive#statusline()} "  Git Hotness
 
 nnoremap <leader>w :w<CR>
 nnoremap <leader>q :q<CR>
